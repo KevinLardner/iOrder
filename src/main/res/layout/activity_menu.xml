@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="false"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    tools:context="com.kevin.ifood.MenuActivity"
+    tools:layout_centerInParent="false">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <Button
+        android:id="@+id/foodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Course Menu"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/drinksButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drinks Menu"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/snacksButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snacks &amp; Side Orders"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/dessertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dessert Menu"
+        android:textAlignment="textStart" />
+
+    <FrameLayout
+        android:id="@+id/menu_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
+</LinearLayout>
